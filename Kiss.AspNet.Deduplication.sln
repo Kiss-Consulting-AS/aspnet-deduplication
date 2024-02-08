@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiss.AspNet.Deduplication", "src\Kiss.AspNet.Deduplication\Kiss.AspNet.Deduplication.csproj", "{5520B312-7C37-4710-8A42-C4B187DC6690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kiss.AspNet.Deduplication.TestApplication", "src\Kiss.AspNet.Deduplication.TestApplication\Kiss.AspNet.Deduplication.TestApplication.csproj", "{D1555CA4-6058-41F8-A6DC-EC8AA2E3B396}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RootFiles", "RootFiles", "{2D5C0271-90CC-415F-8038-23EDEBB53C52}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5520B312-7C37-4710-8A42-C4B187DC6690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5520B312-7C37-4710-8A42-C4B187DC6690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5520B312-7C37-4710-8A42-C4B187DC6690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5520B312-7C37-4710-8A42-C4B187DC6690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1555CA4-6058-41F8-A6DC-EC8AA2E3B396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1555CA4-6058-41F8-A6DC-EC8AA2E3B396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1555CA4-6058-41F8-A6DC-EC8AA2E3B396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1555CA4-6058-41F8-A6DC-EC8AA2E3B396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
